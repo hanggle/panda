@@ -2,10 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.oskyhg</groupId>
+  <groupId>com.oskyhang</groupId>
   <artifactId>springboot</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<modules>
+		<module>mq</module>
+	</modules>
+	<packaging>pom</packaging>
 
   <name>springboot</name>
   <url>http://maven.apache.org</url>

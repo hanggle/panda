@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @SpringBootApplication  //@SpringBootApplication等价于@Configuration @EnableAutoConfiguration @ComponentScan
-
 public class Application {
 	@RequestMapping("/hello")
 	@ResponseBody
